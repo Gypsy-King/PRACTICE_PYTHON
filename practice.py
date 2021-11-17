@@ -35,3 +35,13 @@ print(name + "is" + str(age) + "years old, likes to" + favorites)
 # print(name,"is",age,"years old, likes to",favorites) when use comma instead of plus you don't have to add str
 print( name + "is grown-up?" +str(is_grown_up))
 
+# index
+# use number sign
+'''use three 
+single quotation 
+marks to commenting several sentances''' 
+# use Ctrl+/ to 
+# commenting several 
+# sentances at once
+ 
+ 
