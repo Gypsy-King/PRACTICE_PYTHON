@@ -32,3 +32,15 @@ from math import * # use all functions in math library
 print(floor(4.99)) # = 4 (round up)
 print(ceil(3.14)) # = 4 (round off)
 print(sqrt(16)) # = 4 (square root)
+
+# random functions
+from random import *
+
+print(random()) # generate random value between 0.0<= ~ <1.0
+print(random()*10) # generate random value between 0.0<= ~ <10.0
+print(int(random()*10)) # generate random value between 0<= ~ <10
+print(int(random()*10 + 1)) # generate random value between 1<= ~ <=10
+
+print(int(random()*45) + 1) *6 # generate random value between 1<= ~ <=45  # Korean loterry
+print(randrange(1, 46)) # generate random value between 1< ~ <45
+print(randint(1,45)) # generate random value between 1< ~ <45
