@@ -55,3 +55,14 @@ Python is eaasy
 """
 print(sentance3) # use 3 single quotation it covers many sentances at once
 
+# slicing
+RRN = "900120-1234567"
+
+print("sex : " + RRN[7])
+print("birth year : " + RRN[0:2])
+print("birth month : " + RRN[2:4])
+print("birth day : " + RRN[4:6])
+
+print("birth: " + RRN[:6])
+print("back nums : " + RRN[7:])
+print("back nums(start from the back) : " + RRN[-7:]) 
