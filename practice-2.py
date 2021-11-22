@@ -44,3 +44,14 @@ print(int(random()*10 + 1)) # generate random value between 1<= ~ <=10
 print(int(random()*45) + 1) *6 # generate random value between 1<= ~ <=45  # Korean loterry
 print(randrange(1, 46)) # generate random value between 1< ~ <45
 print(randint(1,45)) # generate random value between 1< ~ <45
+
+# String
+sentance = 'I am a boy'
+print(sentance)
+sentance2 = "Python is eaasy"
+print(sentance2)
+sentance3 = """I am a boy and
+Python is eaasy
+"""
+print(sentance3) # use 3 single quotation it covers many sentances at once
+
