@@ -17,3 +17,29 @@ print(python.index("Java")) # error
 print("hi") # it won't  be printed
 
 print(python.count("n")) 
+
+# String format
+
+# Method 1
+print("I am %d years old." % 20)
+print("I like %s." % "Python")
+print("Apple starts with %c." % "A")
+
+# %s
+print("I am %s years old." % 20)
+print("My favorite color is %s and %s." % ("Blue","Red"))
+
+# Method 2
+print("I am {}years old.".format(20))
+print("My favorite color is {} and {}.".format("Blue","Red"))
+print("My favorite color is {0} and {1}.".format("Blue","Red"))
+print("My favorite color is {1} and {0}.".format("Blue","Red"))
+
+# Method 3
+print("I am {age}years old, and my favorite color is {color}.".format(age = 20, color = "빨간"))
+print("I am {age}years old, and my favorite color is {color}.".format(color = "빨간",age = 20))
+
+# Method 4(over v3.6)
+age = 20
+color = "Red"
+print(f"I am {age} years old, and my favorite color is {color}.")
