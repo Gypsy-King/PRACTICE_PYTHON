@@ -43,3 +43,16 @@ print("I am {age}years old, and my favorite color is {color}.".format(color = "ë
 age = 20
 color = "Red"
 print(f"I am {age} years old, and my favorite color is {color}.")
+
+# Escape Code
+print("A picture is worth \n a thousand words")
+
+print("I am 'coding'") or print('I am "coding"') or print("I am \"coding\"")
+
+print("C:\\Users\\user\\Documents\\PRACTICE_PYTHON>") # to print \ we need \\
+
+print("Red apple \r pine") # \r make cursor to front
+
+print("Redd \b apple") # = backspace
+
+print("Red \t apple") # = tab
