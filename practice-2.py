@@ -2,7 +2,7 @@
 print(2 + 3 * 4) # = 14
 print((2 + 3) * 4) # = 20
 
-number = 2 + 3 * 3 # = 14
+number = 2 + 3 * 4 # = 14
 print(number)
 
 number = number + 2 # = 16
@@ -12,13 +12,13 @@ number += 2  # = 18
 print(number) 
 
 number *= 2 # = 36
-
+print(number)
 number /= 2 # = 18
-
+print(number)
 number -= 2 # = 16
-
+print(number)
 number %= 5 # = 1
-
+print(number)
 # math functions
 
 print(abs(-5))				# 5(absolute value)
@@ -42,8 +42,8 @@ print(int(random()*10)) # generate random value between 0<= ~ <10
 print(int(random()*10 + 1)) # generate random value between 1<= ~ <=10
 
 print(int(random()*45) + 1) *6 # generate random value between 1<= ~ <=45  # Korean loterry
-print(randrange(1, 46)) # generate random value between 1< ~ <45
-print(randint(1,45)) # generate random value between 1< ~ <45
+print(randrange(1, 46)) # generate random value between 1< ~ <46
+print(randint(1, 45)) # generate random value between 1<= ~ <=45
 
 # String
 sentance = 'I am a boy'

@@ -33,7 +33,7 @@ is_grown_up = age >= 3
 print("Name of my" + animal + "is" + name)
 print(name + "is" + str(age) + "years old, likes to" + favorites)
 # print(name,"is",age,"years old, likes to",favorites) when use comma instead of plus you don't have to add str
-print( name + "is grown-up?" +str(is_grown_up))
+print(name + "is grown-up?" +str(is_grown_up))
 
 # index
 # use number sign
@@ -67,7 +67,7 @@ print(4 == 2) # False
 print(3 + 4 == 7) # True
 print(1 != 3) # True
 print(not(1 != 3)) # False(not(True))
-print((3 > 0) and (3 < 5))=print((3 > 0) & (3 < 5)) # True
-print((3 > 0) or (3 < 5))  = print((3 > 0) | (3 < 5)) # True
+print((3 > 0) and (3 < 5)) = print((3 > 0) & (3 < 5)) # True
+print((3 > 0) or (3 < 5)) = print((3 > 0) | (3 < 5)) # True
 print(5 > 4 > 3) # True
 print(5 > 4 > 7) # False
